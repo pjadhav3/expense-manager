@@ -34,12 +34,8 @@ category_id TINYINT NOT NULL,
 vendor_name VARCHAR(255) NOT NULL,
 amount DECIMAL(10,2) NOT NULL,
 is_active TINYINT(1) DEFAULT 1,
+expense_date DATETIME NOT NULL,
 create_date DATETIME DEFAULT NOW(),
-update_date DATETIME DEFAULT NOW()
+last_update_date DATETIME DEFAULT NOW()
 )
 ;
-
-
-
-
-
