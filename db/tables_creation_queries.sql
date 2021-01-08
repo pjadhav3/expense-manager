@@ -39,10 +39,3 @@ create_date DATETIME DEFAULT NOW(),
 last_update_date DATETIME DEFAULT NOW()
 )
 ;
-
-DROP TABLE expense;
-
-
-
-
-
